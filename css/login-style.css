@@ -1,0 +1,102 @@
+
+@font-face {
+  font-family: 'Arabic';
+  src:
+       url('/public/fonts/stc.otf') format('opentype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+body{
+  padding:15px;
+  text-align: center;
+  background: #222222;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.navbar.navbar-default{
+  border: none;
+  background: transparent;
+  padding: 0px 20px;
+  text-align: right;
+}
+
+.navbar.navbar-default a{
+  padding: 3px 25px;
+  font-size: 18px;
+}
+
+h1{
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 55px;
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+
+
+form{
+  margin: 0px auto;
+  max-width: 300px; 
+  font-size: 15px;
+}
+
+form .error{
+
+  margin-bottom: 70px;
+  
+}
+
+form .input-group{
+  margin-bottom: 15px;
+  text-align: right;
+  width: 100%;
+}
+
+form .form-control{
+  
+  font-size: 18px;
+  
+}
+
+form .checkbox span{
+  position: relative;
+  float: left;
+  margin-right: 25px;
+}
+
+form button{
+  width: 100%;
+  color: red;
+}
+
+form button span{
+  font-size: 20px;
+}
+
+form #form-links{
+  margin-top: 30px;
+  text-align: center;
+}
+
+form #form-links p a{
+  margin-right: 10px;
+}
+
+.main{
+  margin: 0px auto;
+  max-width: 500px;
+}
+
+
+.main #fb{
+  text-decoration: none;
+  position: relative;
+}
+
+

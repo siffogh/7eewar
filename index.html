@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log In</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/login-style.css" rel="stylesheet">
+
+
+
+  </head>
+  <body>
+     <nav class="navbar navbar-default" role="navigation">
+      
+     </nav>
+     
+     <div class="container">
+      <form action='/login' method='post' class='form-group'>
+        <h1>7eewar</h1>
+     
+        <div class='input-group'>
+          <input type="email" class="form-control" placeholder="Email" name='email' required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        </div>
+        <div class='input-group'>
+          <input type="password" class="form-control" placeholder="Password" name='password' required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+        </div>
+        <button class="btn btn-primary" type='submit'><span>Log In</span></button>
+        <div id='form-links'>
+          <p><strong>Or</strong></p>
+          <a href='/auth/facebook' class="btn btn-default btn-sm btn-social btn-facebook">
+          <i class="fa fa-facebook"></i>
+          Facebook
+        </a>
+
+        <a href='/auth/google' class="btn btn-default btn-sm btn-social btn-google-plus">
+          <i class="fa fa-google"></i>
+          Google
+        </a>
+         
+        </div>
+      </form>
+    </div> <!-- /container -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
